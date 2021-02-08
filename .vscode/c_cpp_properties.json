@@ -1,9 +1,12 @@
 {
-	"configurations": [
-		{
-			"name": "DynamicSnowEditor Editor Win64 Development (DynamicSnow)",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "D:\\Unreal\\Projects\\DynamicSnow\\.vscode\\compileCommands_DynamicSnow.json"
-		}
-	]
+    "configurations": [
+        {
+            "name": "DynamicSnowEditor Editor Win64 Development (DynamicSnow)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal\\Projects\\DynamicSnow\\.vscode\\compileCommands_DynamicSnow.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
 }
