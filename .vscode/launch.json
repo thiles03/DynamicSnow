@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "DynamicSnow (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnow Win64 Debug Build",
+			"program": "D:\\Unreal\\Projects\\DynamicSnow\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnow (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnow Win64 DebugGame Build",
+			"program": "D:\\Unreal\\Projects\\DynamicSnow\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnow (Development)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnow Win64 Development Build",
+			"program": "D:\\Unreal\\Projects\\DynamicSnow\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnow (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnow Win64 Shipping Build",
+			"program": "D:\\Unreal\\Projects\\DynamicSnow\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnow (Test)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnow Win64 Test Build",
+			"program": "D:\\Unreal\\Projects\\DynamicSnow\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnowEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnowEditor Win64 Debug Build",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Unreal\\Projects\\DynamicSnow\\DynamicSnow.uproject"
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnowEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnowEditor Win64 DebugGame Build",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Unreal\\Projects\\DynamicSnow\\DynamicSnow.uproject"
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DynamicSnowEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "DynamicSnowEditor Win64 Development Build",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Unreal\\Projects\\DynamicSnow\\DynamicSnow.uproject"
+			],
+			"cwd": "D:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Unreal\\Projects\\DynamicSnow\\DynamicSnow.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\UE_4.26"
+		}
+	]
+}
